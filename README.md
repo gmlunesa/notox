@@ -1,23 +1,21 @@
-# 💭 Techst
+# 🚫 notox
 
-<img src="https://github.com/gmlunesa/techst/blob/master/images/TechstPreview.png" height="320" alt="Techst Preview">
+<img src="https://github.com/gmlunesa/notox/blob/master/images/NotoxPreview.png" height="320" alt="Notox Preview">
 
 ## About
 
-/ˈtɛkst/
+Notox is a chat application that uses artificial intelligence to filter out negative messages to fellow users. The project uses the [Tensorflow toxicity model](https://github.com/tensorflow/tfjs-models/tree/master/toxicity) to detect whether the messages contain insults, obscenities or threatening language and stops such messages from being sent to others. This approach is an improved solution compared to a dictionary-based filtering method, since the model distinguishes the context specific mappings of adjectives and attributes because a word can have multiple senses.
 
-Bootstrap your own chat application with Techst. Within minutes, you can configure and launch a private real-time messaging platform for free using popular deployment solutions.
-
-### Features and Functionalities
-
-- Send and receive messages in real-time
-- Register and authorize through email
-- Search other accounts and create a chatroom
+No rudeness. <br />
+No toxicity. <br />
+Notox.
 
 ### Stack
 
-| <img src="https://raw.githubusercontent.com/yurijserrano/Github-Profile-Readme-Logos/master/frameworks/react.svg" width="100" height="100" alt="React"> | <img src="https://raw.githubusercontent.com/yurijserrano/Github-Profile-Readme-Logos/master/cloud/firebase.svg" width="100" height="100" alt="Firebase"> |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="https://raw.githubusercontent.com/yurijserrano/Github-Profile-Readme-Logos/master/frameworks/react.svg" width="100" height="100" alt="React"> | <img src="https://raw.githubusercontent.com/yurijserrano/Github-Profile-Readme-Logos/master/cloud/firebase.svg" width="100" height="100" alt="Firebase"> | <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg" width="100" height="100" alt="Tensorflow"> |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+
+> This project uses the [Techst](https://github.com/gmlunesa/techst/) template, which lets anyone set up a real-time private chat application within minutes.
 
 ## Setup
 

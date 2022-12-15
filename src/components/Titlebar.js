@@ -12,7 +12,7 @@ import {
 const Titlebar = () => {
   return (
     <TitlebarWrapper>
-      <Logo>techst</Logo>
+      <Logo>notox</Logo>
       <TitlebarButton href="https://github.com/gmlunesa" target="_blank">
         <FaStar />
       </TitlebarButton>

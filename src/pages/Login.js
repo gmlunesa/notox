@@ -61,17 +61,28 @@ const Login = () => {
         <h1>Login</h1>
       </HeadingWrapper>
       <FormWrapper>
-        <Logo>techst</Logo>
+        <Link to="/about">
+          <Logo>notox</Logo>
+        </Link>
         <Form onSubmit={handleSubmit}>
-          <Input type="email" id="email" name="email" placeholder="Email" />
+          <Input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+            value="abc@gmail.com"
+            disabled
+          />
           <Input
             type="password"
             id="password"
             name="password"
             placeholder="Password"
+            value="NF6QwyxSe9s83v7"
+            disabled
           />
           <button disabled={isLoading}>
-            {isLoading ? "Logging you in..." : "Log in"}
+            {isLoading ? "Logging you in..." : "Log in with test account"}
           </button>
         </Form>
         <AlertWrapper>

@@ -118,7 +118,9 @@ const Register = () => {
         <h1>Register</h1>
       </HeadingWrapper>
       <FormWrapper>
-        <Logo>techst</Logo>
+        <Link to="/about">
+          <Logo>notox</Logo>
+        </Link>
         <Form onSubmit={handleSubmit}>
           <Input
             type="text"
@@ -127,6 +129,7 @@ const Register = () => {
             placeholder="Username"
             maxLength={20}
             required
+            disabled
           />
           <Input
             type="email"
@@ -134,6 +137,7 @@ const Register = () => {
             name="email"
             placeholder="Email"
             required
+            disabled
           />
           <Input
             type="password"
@@ -141,6 +145,7 @@ const Register = () => {
             name="password"
             placeholder="Password"
             required
+            disabled
           />
           <Input
             type="file"
@@ -149,14 +154,13 @@ const Register = () => {
             style={{ display: "none" }}
             accept="image/*"
             onChange={checkImageSize}
+            disabled
           />
           <Label htmlFor="file">
             <AttachFile />
             <span>Add your avatar.</span>
           </Label>
-          <button disabled={!isFileValid || isLoading}>
-            {isLoading ? "Creating account..." : "Sign up"}
-          </button>
+          <button disabled>Registration disabled</button>
         </Form>
         <AlertWrapper>
           {isErrorVisible && <Alert>Something went wrong.</Alert>}

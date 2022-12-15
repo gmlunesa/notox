@@ -117,6 +117,10 @@ const InputWrapper = styled.div`
   &.empty {
     display: none;
   }
+
+  button {
+    margin-left: 0.5rem;
+  }
 `;
 
 const ChatInput = styled.input`
@@ -126,6 +130,11 @@ const ChatInput = styled.input`
   background-color: transparent;
   color: var(--slate-700);
   font-size: medium;
+`;
+
+const ChatReminder = styled.button`
+  background-color: maroon;
+  font-weight: normal;
 `;
 
 export {
@@ -141,4 +150,5 @@ export {
   MessageTimestamp,
   InputWrapper,
   ChatInput,
+  ChatReminder,
 };
