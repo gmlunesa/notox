@@ -1,5 +1,9 @@
 # 🚫 notox
 
+<a href="https://gmlunesa.com/notox/#/about">
+  <img src="https://img.shields.io/badge/Visit%20Notox-064E3B.svg?&style=for-the-badge&logo=google-chrome&logoColor=white" alt="gmlunesa.com"/>
+</a>
+
 <img src="https://github.com/gmlunesa/notox/blob/master/images/NotoxPreview.png" height="320" alt="Notox Preview">
 
 ## About
@@ -9,6 +13,17 @@ Notox is a chat application that uses artificial intelligence to filter out nega
 No rudeness. <br />
 No toxicity. <br />
 Notox.
+
+<img src="https://github.com/gmlunesa/notox/blob/master/images/NotoxShowcase.png" height="640" alt="Notox">
+
+### Notes
+
+On the live deployment of [Notox](https://gmlunesa.com/notox/#/about), please keep in mind of the following:
+
+- It may take a while for the Tensorflow model to load
+- It may take a while for the Tensorflow model to classify the message
+
+Your patience is appreciated!
 
 ### Stack
 
