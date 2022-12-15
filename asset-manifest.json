@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/notox/static/css/main.0d9be375.css",
-    "main.js": "/notox/static/js/main.fc2c3d18.js",
+    "main.js": "/notox/static/js/main.477f91f3.js",
     "static/media/welcome.svg": "/notox/static/media/welcome.67248d0ed0626f4013ea1241053b542c.svg",
     "static/media/file.svg": "/notox/static/media/file.13ce22967d33ea6c702d9e384a2b44d7.svg",
     "index.html": "/notox/index.html",
-    "main.fc2c3d18.js.map": "/notox/static/js/main.fc2c3d18.js.map"
+    "main.477f91f3.js.map": "/notox/static/js/main.477f91f3.js.map"
   },
   "entrypoints": [
     "static/css/main.0d9be375.css",
-    "static/js/main.fc2c3d18.js"
+    "static/js/main.477f91f3.js"
   ]
 }
