@@ -3,6 +3,9 @@
 <a href="https://gmlunesa.com/notox/#/about">
   <img src="https://img.shields.io/badge/Visit%20Notox-064E3B.svg?&style=for-the-badge&logo=google-chrome&logoColor=white" alt="gmlunesa.com"/>
 </a>
+<a href="https://gmlunesa.com/blog/creating-a-wholesome-chat-space-with-tensorflow">
+  <img src="https://img.shields.io/badge/Read%20blog-047857.svg?&style=for-the-badge&logo=google-chrome&logoColor=white" alt="Read blog"/>
+</a>
 
 <img src="https://github.com/gmlunesa/notox/blob/master/images/NotoxPreview.png" height="320" alt="Notox Preview">
 
@@ -17,6 +20,8 @@ Notox.
 <img src="https://github.com/gmlunesa/notox/blob/master/images/NotoxShowcase.png" height="640" alt="Notox">
 
 ### Notes
+
+✨ Read how I built this app on my [blog](https://gmlunesa.com/blog/creating-a-wholesome-chat-space-with-tensorflow)! ✨
 
 On the live deployment of [Notox](https://gmlunesa.com/notox/#/about), please keep in mind of the following:
 

@@ -23,9 +23,9 @@ const Input = () => {
   const [isSending, setIsSending] = useState(false);
 
   const [isToxic, setIsToxic] = useState(false);
-  const [isClassifying, setIsClassifying] = useState(false); // A simple state variable to reflect the classifying process status
-  const [hasLoaded, setHasLoaded] = useState(false); // Has the Toxicity model been loaded?
-  const model = useRef(null); // Retain a value throughout the Component's render cycles WITHOUT triggering a render, as opposed to a useState variable
+  const [isClassifying, setIsClassifying] = useState(false);
+  const [hasLoaded, setHasLoaded] = useState(false);
+  const model = useRef(null);
 
   const { currentUser } = useContext(AuthContext);
   const { data } = useContext(ChatContext);
@@ -81,12 +81,8 @@ const Input = () => {
   useEffect(() => {
     async function loadModel() {
       const threshold = 0.9;
-      console.log("Loading model...");
-      // Set a state that indicates the model is being loaded...
       model.current = await load(threshold);
       setHasLoaded(true);
-      // Set the state to false to let the user know that they can check the text
-      console.log("Model loaded");
     }
     loadModel();
   }, []);
