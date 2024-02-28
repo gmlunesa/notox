@@ -21,7 +21,7 @@ Notox.
 
 ### Notes
 
-✨ Read how I built this app on my [blog](https://gmlunesa.com/blog/creating-a-wholesome-chat-space-with-tensorflow)! ✨
+✨ Read how I built this app on my [blog](https://blog.gmlunesa.com/creating-a-wholesome-chat-space-with-tensorflow)! ✨
 
 On the live deployment of [Notox](https://gmlunesa.com/notox/#/about), please keep in mind of the following:
 
@@ -89,4 +89,4 @@ The following are the steps on running the application. You may find a more in-d
 
 ---
 
-Made with 💫✨ by [gmlunesa](https://gmlunesa.com)
+Made with 💫✨ by [Goldy Mariz Lunesa @gmlunesa](https://gmlunesa.com)
